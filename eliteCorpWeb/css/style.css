@@ -54,3 +54,46 @@
     }
 }
 /********* End upper bar *************/
+
+
+/*********
+****** Start style navbar 
+**********/
+
+.navbar-brand span {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.navbar-brand span:first-child {
+    color: #08526d;
+    font-weight: bold;
+}
+.navbar-brand span:last-child {
+    color: #ec1c23;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #08526d;
+    transition: all .5s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ec1c23;
+}
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    color: #ec1c23;
+}
+
+@media(max-width: 991px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 0;
+    }
+}
+/*********
+****** End style navbar 
+**********/
+
