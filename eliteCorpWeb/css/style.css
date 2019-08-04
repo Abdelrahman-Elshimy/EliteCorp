@@ -1,0 +1,56 @@
+/* 
+
+    Theme Name: EliteCorp
+    Theme Coder: Abdelrahman Lotfy
+
+    First Color: 08526d
+    Second Color: ec1c23
+
+*/
+
+/********* Start upper bar *************/
+.upper-bar {
+    background: #08526d;
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 13px;
+}
+.upper-bar i {
+    color: #fefefe;
+}
+
+.upper-bar span {
+    margin-right: 20px;
+}
+.upper-bar span:last-child {
+    margin-right: 0px;
+}
+.upper-bar span:nth-child(2) 
+{
+    color: #ffffff;
+}
+
+.upper-bar span,
+.upper-bar  span button{
+    color: #929fa5;
+}
+
+.upper-bar  span button {
+    background: transparent;
+    border: none;
+    border: 1px solid #ec1c23;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+}
+.right-sec-top {
+    text-align: right;
+}
+
+@media(max-width: 768px) {
+    .right-sec-top {
+        text-align: left;
+        margin-top: 15px;
+    }
+}
+/********* End upper bar *************/
